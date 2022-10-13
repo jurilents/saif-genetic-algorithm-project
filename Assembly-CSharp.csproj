@@ -41,7 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/GameMaster.cs" />
+     <Compile Include="Assets/Scripts/GameStartup.cs" />
+     <Compile Include="Assets/Scripts/Controllers/FarmController.cs" />
+     <Compile Include="Assets/Scripts/Entities/Organism.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -836,6 +838,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>/Users/jurilents/Work/Private/SAIF-Alfarm/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Leopotam.Ecs">
+     <HintPath>/Users/jurilents/Work/Private/SAIF-Alfarm/Library/ScriptAssemblies/Leopotam.Ecs.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
