@@ -10,8 +10,8 @@ public class GameStartup : MonoBehaviour
     private void Start()
     {
         _world = new EcsWorld();
-        _systems = new EcsSystems(_world)
-            .Add(new PlayerHealthSystem());
+        _systems = new EcsSystems(_world);
+        // .Add(new PlayerHealthSystem());
         _systems.Init();
     }
 
