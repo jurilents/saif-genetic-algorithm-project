@@ -41,11 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/Saif/Controllers/FarmController.cs" />
      <Compile Include="Assets/Scripts/GameStartup.cs" />
      <Compile Include="Assets/Scripts/Saif/World/ArtificialLife/BioUnit.cs" />
      <Compile Include="Assets/Scripts/Saif/Settings/GlobalSettings.cs" />
-     <Compile Include="Assets/Scripts/Saif/Controllers/SettingsController.cs" />
      <Compile Include="Assets/Scripts/Saif/Behaviours/MapDrawer.cs" />
      <Compile Include="Assets/Scripts/Saif/Core/MapCellUpdateEvent.cs" />
      <Compile Include="Assets/Scripts/Saif/World/VirtualMap/ICell.cs" />
@@ -61,6 +59,8 @@
      <Compile Include="Assets/Scripts/Saif/World/VirtualMap/Size.cs" />
      <Compile Include="Assets/Scripts/Saif/World/ArtificialLife/IGenome.cs" />
      <Compile Include="Assets/Scripts/Saif/Core/Noiser.cs" />
+     <Compile Include="Assets/Scripts/Saif/Behaviours/PlayButtonBehaviour.cs" />
+     <Compile Include="Assets/Scripts/Saif/Core/EventManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/Sprites" />
@@ -73,9 +73,9 @@
      <Folder Include="Assets/Scripts/Saif/World" />
      <Folder Include="Assets/Settings" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <Folder Include="Assets/Sprites/UI" />
      <Folder Include="Assets/Scripts/Saif/Core" />
      <Folder Include="Assets/Tilemap/Palettes" />
-     <Folder Include="Assets/Scripts/Saif/Controllers" />
      <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
