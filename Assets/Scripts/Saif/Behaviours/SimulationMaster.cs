@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Saif.Behaviours
 {
     [RequireComponent(typeof(MapDrawer))]
-    public class Farm : MonoBehaviour
+    public class SimulationMaster : MonoBehaviour
     {
         private MapDrawer _drawer;
 
