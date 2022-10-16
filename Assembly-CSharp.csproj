@@ -41,206 +41,39 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Assets.cs">
-       <Link>Assets\Assets\CodeMonkey\Assets.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\CMDebug.cs">
-       <Link>Assets\Assets\CodeMonkey\CMDebug.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs">
-       <Link>Assets\Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs">
-       <Link>Assets\Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs">
-       <Link>Assets\Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs">
-       <Link>Assets\Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\Button_Sprite.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\Button_Sprite.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\Button_UI.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\Button_UI.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\FunctionPeriodic.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\FunctionPeriodic.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\FunctionTimer.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\FunctionTimer.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\FunctionUpdater.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\FunctionUpdater.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\UI_Bar.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\UI_Bar.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\UI_BarMultiple.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\UI_BarMultiple.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\UI_Sprite.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\UI_Sprite.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\UI_TextComplex.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\UI_TextComplex.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\UtilsClass.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\UtilsClass.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\World_Bar.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\World_Bar.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\World_Mesh.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\World_Mesh.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\CodeMonkey\Utils\World_Sprite.cs">
-       <Link>Assets\Assets\CodeMonkey\Utils\World_Sprite.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Bot.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Bot.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\DNAImplementations\TypeAlpha.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\DNAImplementations\TypeAlpha.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Diet.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Diet.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Gene.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Gene.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\GeneAttribute.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\GeneAttribute.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\GeneticCore.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\GeneticCore.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Genome.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Genome.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\IDNA.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\IDNA.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Mutation.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\Genetic\Mutation.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\BotAI\IBot.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\BotAI\IBot.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\Core\Defaults.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\Core\Defaults.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\Core\FarmObject.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\Core\FarmObject.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\Core\FarmSettings.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\Core\FarmSettings.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\Core\IFarmObject.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\Core\IFarmObject.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\Core\Population.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\Core\Population.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\Cell.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\Cell.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\CellContentType.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\CellContentType.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\DisplayMode.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\DisplayMode.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\GridOrientation.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\GridOrientation.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\HexWorldMap.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\HexWorldMap.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\ICell.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\ICell.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\Size.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\Size.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\Turn.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\Turn.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\FarmMap\WorldMap.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\FarmMap\WorldMap.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\UI\Farm.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\UI\Farm.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\UI\FarmUI.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\UI\FarmUI.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\ArtificialFarm\UI\WindowGraph.cs">
-       <Link>Assets\Assets\Scripts\ArtificialFarm\UI\WindowGraph.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Core\Statistics\GraphLine.cs">
-       <Link>Assets\Assets\Scripts\Core\Statistics\GraphLine.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Master.cs">
-       <Link>Assets\Assets\Scripts\Master.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Behaviours\FPSCounter.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Behaviours\FPSCounter.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Behaviours\ProgressBar.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Behaviours\ProgressBar.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Editor\ToolsMenuItems.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Editor\ToolsMenuItems.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Formatter.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Formatter.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Logging\GameLoggingConsole.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Logging\GameLoggingConsole.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Logging\IGameLogger.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Logging\IGameLogger.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Logging\Logger.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Logging\Logger.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Logging\LogMessage.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Logging\LogMessage.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Logging\LogType.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Logging\LogType.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Physics2DEventBroadcaster.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Physics2DEventBroadcaster.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\RandMe.cs">
-       <Link>Assets\Assets\Scripts\Utilities\RandMe.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\Reflection.cs">
-       <Link>Assets\Assets\Scripts\Utilities\Reflection.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\SimplexNoiseGenerator.cs">
-       <Link>Assets\Assets\Scripts\Utilities\SimplexNoiseGenerator.cs</Link>
-     </Compile>
-     <Compile Include="..\..\..\Desktop\Assets\Scripts\Utilities\UnityExtensions.cs">
-       <Link>Assets\Assets\Scripts\Utilities\UnityExtensions.cs</Link>
-     </Compile>
-     <Compile Include="Assets/Scripts/Controllers/FarmController.cs" />
-     <Compile Include="Assets/Scripts/Entities/Organism.cs" />
+     <Compile Include="Assets/Scripts/Saif/Controllers/FarmController.cs" />
      <Compile Include="Assets/Scripts/GameStartup.cs" />
-     <Compile Include="Assets/Scripts/Components/BioUnit.cs" />
-     <Compile Include="Assets/Scripts/Settings/FarmSettings.cs" />
-     <Compile Include="Assets/Scripts/Controllers/SettingsController.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/ArtificialLife/BioUnit.cs" />
+     <Compile Include="Assets/Scripts/Saif/Settings/GlobalSettings.cs" />
+     <Compile Include="Assets/Scripts/Saif/Controllers/SettingsController.cs" />
+     <Compile Include="Assets/Scripts/Saif/Behaviours/MapDrawer.cs" />
+     <Compile Include="Assets/Scripts/Saif/Core/MapCellUpdateEvent.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/ICell.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/HexFarm.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/Farm.cs" />
+     <Compile Include="Assets/Scripts/Saif/Behaviours/Farm.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/Core/Turn.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/Cell.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/CellContentType.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/Core/MapSettings.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/ArtificialLife/Population.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/Core/IFarmObject.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/VirtualMap/Size.cs" />
+     <Compile Include="Assets/Scripts/Saif/World/ArtificialLife/IGenome.cs" />
+     <Compile Include="Assets/Scripts/Saif/Core/Noiser.cs" />
+     <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
-     <Folder Include="Assets/Scripts/Settings" />
+     <Folder Include="Assets/Scripts/Saif/Settings" />
+     <Folder Include="Assets/Scripts/Saif/World" />
      <Folder Include="Assets/Settings" />
-     <Folder Include="Assets/Scripts/Systems" />
-     <Folder Include="Assets/Scripts/Controllers" />
-     <Folder Include="Assets/Scripts/Components" />
+     <Folder Include="Assets/Scripts/Saif/Core" />
+     <Folder Include="Assets/Scripts/Saif/Controllers" />
+     <Folder Include="Assets/Scripts/Saif/World/ArtificialLife" />
+     <Folder Include="Assets/Scripts/Saif/Behaviours" />
      <Folder Include="Assets/Settings/Scenes" />
-     <Folder Include="Assets/Scripts/Entities" />
+     <Folder Include="Assets/Scripts/Saif/World/VirtualMap" />
+     <Folder Include="Assets/Scripts/Saif" />
+     <Folder Include="Assets/Scripts/Saif/World/Core" />
      <Folder Include="Assets/Scripts" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

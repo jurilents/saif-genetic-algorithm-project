@@ -1,4 +1,4 @@
-namespace Controllers
+namespace Saif.Controllers
 {
     public class SettingsController
     {
