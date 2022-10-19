@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Saif.Core
 {
-    public class Noiser
+    public static class Noiser
     {
         public static float GetNoise(Vector3Int pos, float scale = 1, float offset = 0)
         {
