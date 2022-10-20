@@ -83,8 +83,14 @@ namespace Saif.World.ArtificialLife
 
             for (int i = 0; i < count; i++)
             {
+                if (_reservePool.Count == 0)
+                {
+                    // TODO: Continue here
+                    // var newInstance = new BioUnit();
+                    // _reservePool.Enqueue(newInstance);
+                }
+
                 var instance = _reservePool.Dequeue();
-                // var instance = new Bot();
                 _birthNote.Enqueue((instance, null));
             }
 
